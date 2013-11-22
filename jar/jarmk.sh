@@ -1,6 +1,6 @@
-jar=../upload.jar
+jar=upload.jar
 
-cd ../../bin&&
+cd ../bin&&
 jar cvf $jar applet/*&&
 jarsigner -verbose $jar applet.upload&&
 ls -l $jar;
