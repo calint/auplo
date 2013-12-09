@@ -8,7 +8,7 @@ import java.io.IOException;
 import javax.swing.JApplet;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
-public class upload extends JApplet{static final long serialVersionUID=1;
+final public class upload extends JApplet{static final long serialVersionUID=1;
 	public String host;
 	public String port;
 	public String sesid;
